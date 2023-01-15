@@ -1,0 +1,169 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+
+.main {
+    margin-left: 290px;
+    margin-right: 385px;
+    margin-top: 125px;
+}
+body {
+    background: #e8e8e8;
+}
+.uno {
+    text-transform: uppercase;
+    line-height: 40px;
+    letter-spacing: 3px;
+}
+.list {
+    color: #273d46;
+    font-size: 20px;
+    line-height: 36px;
+}
+.list01:hover {
+    text-decoration: line-through;
+}
+.list02:hover {
+    font-weight: 600;
+}
+.list03:hover {
+    font-style: oblique;
+}
+.list04:hover {
+    text-transform: uppercase;
+}
+.list1 {
+    padding-top: 80px;
+    padding-bottom: 140px;
+    font-size: 20px;
+    line-height: 36px;
+    color: #273d46;
+}
+.list1 li:hover {
+    color: red;
+}
+.list1 li::before{
+    content: "✔";
+}
+.list li::before{
+    content: "✔";
+}
+button {
+    background: #80b7b3;
+    height: 44px;
+    width: 199px;
+    border-radius: 20px;
+    margin-bottom: 125px;
+}
+button::after{
+    content: "→";
+}
+.buttonUno:hover {
+    background: #3a5855;
+}
+.buttonDos:active {
+    background: #818181;
+}
+.text1:first-line{
+color: red;
+}
+.text2:first-letter{
+color: red;
+}
+.text2{
+    padding-top: 50px;
+
+}
+p{
+    line-height: 28px;
+    font-size: 25px;
+}
